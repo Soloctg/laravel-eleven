@@ -59,7 +59,7 @@ class PostController extends Controller
     {
         $post->update([
             'title' => $request->input('title'),
-            'text' => $request->input('text'),
+            'text'  => $request->input('text'),
             'category_id' => $request->input('category_id'),
         ]);
 
